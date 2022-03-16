@@ -1,0 +1,19 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:vm="using:lab5.ViewModels"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="450" d:DesignHeight="95"
+		Width="450" Height="95"
+        x:Class="lab5.Views.SetRegex"
+        Title="SetRegex">
+
+	<StackPanel>
+		<TextBox Name="regex" Text="{Binding Pattern}"></TextBox>
+		<Button Name="okButton" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" 
+				Content="OK"></Button>
+		<Button Name="cancelButton" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center"
+				Content="Cancel"></Button>
+	</StackPanel>
+	
+</Window>
