@@ -15,8 +15,6 @@ namespace lab5.Views
 #if DEBUG
             this.AttachDevTools();
 #endif
-            //var context = this.DataContext as MainWindowViewModel;
-            //this.FindControl<TextBox>("regex").Text = context.Pattern;
             this.FindControl<Button>("okButton").Click += async delegate
             {
                 Close(this.FindControl<TextBox>("regex").Text);

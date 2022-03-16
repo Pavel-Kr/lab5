@@ -9,7 +9,7 @@
         Title="SetRegex">
 
 	<StackPanel>
-		<TextBox Name="regex" Text="{Binding Pattern}"></TextBox>
+		<TextBox Name="regex"></TextBox>
 		<Button Name="okButton" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" 
 				Content="OK"></Button>
 		<Button Name="cancelButton" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center"
